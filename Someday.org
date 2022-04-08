@@ -1,0 +1,4 @@
+#+STARTUP: fold
+* TODO Emacs: 显示elisp片段中的变量值
+* TODO 折腾 AutoHotKey (应用打开/聚焦，窗口布局)
+* TODO Makefile 学习

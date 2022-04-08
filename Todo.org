@@ -1,0 +1,103 @@
+#+STARTUP: fold
+* DONE 备份前置参数，包括pm产品
+* DONE 回收由于313改为2导致没有路由的单子
+* DONE 回退前置 groupMember 错单
+* DONE 对账环境前置工单创建及用户赋权（写脚本）
+  CLOSED: [2022-04-05 Tue 18:11] SCHEDULED: <2022-04-05 Tue>
+  :LOGBOOK:
+  CLOCK: [2022-04-05 Tue 16:57]--[2022-04-05 Tue 18:11] =>  1:14
+  :END:
+* DONE 对账环境前置数据源问题核查及修改
+  CLOSED: [2022-04-05 Tue 16:54] SCHEDULED: <2022-04-05 Tue>
+  低级错误，acct3连接串中多打了一个@符号。
+* DONE 批量更新信管svn前置工单建表语句（写脚本）
+  CLOSED: [2022-04-05 Tue 19:56]
+  :LOGBOOK:
+  CLOCK: [2022-04-05 Tue 19:36]--[2022-04-05 Tue 19:56] =>  0:20
+  CLOCK: [2022-04-05 Tue 19:20]--[2022-04-05 Tue 19:35] =>  0:15
+  :END:
+* DONE 对账环境新建异动工单表，svn建表语句移到稽核目录下
+  CLOSED: [2022-04-05 Tue 20:33]
+* DONE 对账环境异动应用问题解决
+CLOSED: [2022-04-07 Thu 11:36]
+:LOGBOOK:
+- State "NEXT"       from "WAITING"    [2022-04-07 Thu 11:32]
+CLOCK: [2022-04-07 Thu 11:32]--[2022-04-07 Thu 11:36] =>  0:04
+- State "WAITING"    from "TODO"       [2022-04-06 Wed 11:37] \\
+  to xuxiang
+:END:
+* DONE 生产100主机上发布脚本部署到测试和对账环境
+CLOSED: [2022-04-06 Wed 15:43]
+:LOGBOOK:
+CLOCK: [2022-04-06 Wed 13:06]--[2022-04-06 Wed 13:29] =>  0:23
+CLOCK: [2022-04-06 Wed 12:11]--[2022-04-06 Wed 12:20] =>  0:09
+CLOCK: [2022-04-06 Wed 11:38]--[2022-04-06 Wed 12:01] =>  0:23
+:END:
+* DONE 更新测试环境所有jar包和配置
+CLOSED: [2022-04-06 Wed 16:10]
+稽核包未更新
+* DONE 测试环境搭建：工单表/前置应用
+CLOSED: [2022-04-06 Wed 17:13]
+  :LOGBOOK:
+  CLOCK: [2022-04-05 Tue 20:47]--[2022-04-05 Tue 21:00] =>  0:13
+  :END:
+
+* DONE 了解 Cygwin
+CLOSED: [2022-04-07 Thu 11:12]
+:LOGBOOK:
+CLOCK: [2022-04-07 Thu 11:08]--[2022-04-07 Thu 11:12] =>  0:04
+CLOCK: [2022-04-07 Thu 10:53]--[2022-04-07 Thu 11:06] =>  0:13
+:END:
+* DONE 安装 Manjaro wsl 子系统
+CLOSED: [2022-04-07 Thu 13:39]
+:LOGBOOK:
+CLOCK: [2022-04-07 Thu 13:24]--[2022-04-07 Thu 13:39] =>  0:15
+CLOCK: [2022-04-07 Thu 11:37]--[2022-04-07 Thu 12:07] =>  0:30
+CLOCK: [2022-04-07 Thu 11:16]--[2022-04-07 Thu 11:32] =>  0:16
+:END:
+* DONE 部署博客在widowns下的发布环境(manjaro,hugo,sshpass,rsync)
+CLOSED: [2022-04-07 Thu 14:37]
+:LOGBOOK:
+CLOCK: [2022-04-07 Thu 14:26]--[2022-04-07 Thu 14:37] =>  0:11
+:END:
+* DONE 开启 ManjaroWSL 下的 Gui/Tui Emacs
+CLOSED: [2022-04-07 Thu 16:39]
+:LOGBOOK:
+CLOCK: [2022-04-07 Thu 13:43]--[2022-04-07 Thu 14:17] =>  0:34
+:END:
+* DONE 修改实时订购和查询服务post请求中datas参数的注解为@RequestBody   :ynv8:
+CLOSED: [2022-04-07 Thu 16:50]
+* DONE GCC编译多文件简单学习
+CLOSED: [2022-04-07 Thu 18:00]
+:LOGBOOK:
+CLOCK: [2022-04-07 Thu 17:38]--[2022-04-07 Thu 17:59] =>  0:21
+:END:
+* DONE C算法：队列和栈的实现
+CLOSED: [2022-04-07 Thu 21:33]
+   :LOGBOOK:
+   CLOCK: [2022-04-07 Thu 20:29]--[2022-04-07 Thu 21:33] =>  1:04
+   CLOCK: [2022-04-07 Thu 18:00]--[2022-04-07 Thu 18:11] =>  0:11
+   CLOCK: [2022-04-07 Thu 17:15]--[2022-04-07 Thu 17:34] =>  0:19
+   CLOCK: [2022-04-06 Wed 21:00]--[2022-04-06 Wed 22:07] =>  1:07
+   CLOCK: [2022-04-06 Wed 17:52]--[2022-04-06 Wed 18:07] =>  0:15
+   :END:
+* NEXT 理清 linkedlist 的 deleteNode 逻辑
+DEADLINE: <2022-04-08 Fri 22:00>
+:LOGBOOK:
+CLOCK: [2022-04-08 Fri 11:04]
+:END:
+* DONE 设置 windows下的 locale 为英文环境
+CLOSED: [2022-04-08 Fri 10:39] SCHEDULED: <2022-04-08 Fri 10:00>
+:LOGBOOK:
+- Note taken on [2022-04-08 Fri 10:37] \\
+  修改设置中的“区域格式”
+CLOCK: [2022-04-08 Fri 10:24]--[2022-04-08 Fri 10:32] =>  0:08
+:END:
+* DONE 修改GTD文件中的中文星期显示为英文
+CLOSED: [2022-04-08 Fri 11:01]
+:LOGBOOK:
+CLOCK: [2022-04-08 Fri 10:42]--[2022-04-08 Fri 11:01] =>  0:19
+:END:
+* TODO 博客：总结链表、队列、栈的数据结构
+SCHEDULED: <2022-04-08 Fri 10:00>
+* NEXT 极客时间-架构课学习
