@@ -81,10 +81,10 @@ CLOSED: [2022-04-07 Thu 21:33]
    CLOCK: [2022-04-06 Wed 21:00]--[2022-04-06 Wed 22:07] =>  1:07
    CLOCK: [2022-04-06 Wed 17:52]--[2022-04-06 Wed 18:07] =>  0:15
    :END:
-* NEXT 理清 linkedlist 的 deleteNode 逻辑
-DEADLINE: <2022-04-08 Fri 22:00>
+* DONE 理清 linkedlist 的 deleteNode 逻辑
+CLOSED: [2022-04-08 Fri 11:42] DEADLINE: <2022-04-08 Fri 22:00>
 :LOGBOOK:
-CLOCK: [2022-04-08 Fri 11:04]
+CLOCK: [2022-04-08 Fri 11:04]--[2022-04-08 Fri 11:42] =>  0:38
 :END:
 * DONE 设置 windows下的 locale 为英文环境
 CLOSED: [2022-04-08 Fri 10:39] SCHEDULED: <2022-04-08 Fri 10:00>
@@ -98,7 +98,13 @@ CLOSED: [2022-04-08 Fri 11:01]
 :LOGBOOK:
 CLOCK: [2022-04-08 Fri 10:42]--[2022-04-08 Fri 11:01] =>  0:19
 :END:
-* TODO 博客：总结链表、队列、栈的数据结构
-SCHEDULED: <2022-04-08 Fri 10:00>
+* DONE 博客：总结链表、队列、栈的数据结构
+CLOSED: [2022-04-08 Fri 20:47] SCHEDULED: <2022-04-08 Fri 10:00>
+:LOGBOOK:
+CLOCK: [2022-04-08 Fri 15:55]--[2022-04-08 Fri 18:05] =>  2:10
+CLOCK: [2022-04-08 Fri 14:33]--[2022-04-08 Fri 15:37] =>  1:04
+CLOCK: [2022-04-08 Fri 13:05]--[2022-04-08 Fri 13:17] =>  0:12
+CLOCK: [2022-04-08 Fri 11:51]--[2022-04-08 Fri 12:01] =>  0:10
+:END:
+* TODO C算法：数和二叉树
 * NEXT 极客时间-架构课学习
-* test
