@@ -65,22 +65,13 @@ CLOSED: [2022-04-07 Thu 16:39]
 :LOGBOOK:
 CLOCK: [2022-04-07 Thu 13:43]--[2022-04-07 Thu 14:17] =>  0:34
 :END:
-* DONE 修改实时订购和查询服务post请求中datas参数的注解为@RequestBody   :ynv8:
+* DONE 修改实时订购和查询服务post请求中datas参数的注解为@RequestBody
 CLOSED: [2022-04-07 Thu 16:50]
 * DONE GCC编译多文件简单学习
 CLOSED: [2022-04-07 Thu 18:00]
 :LOGBOOK:
 CLOCK: [2022-04-07 Thu 17:38]--[2022-04-07 Thu 17:59] =>  0:21
 :END:
-* DONE C算法：队列和栈的实现
-CLOSED: [2022-04-07 Thu 21:33]
-   :LOGBOOK:
-   CLOCK: [2022-04-07 Thu 20:29]--[2022-04-07 Thu 21:33] =>  1:04
-   CLOCK: [2022-04-07 Thu 18:00]--[2022-04-07 Thu 18:11] =>  0:11
-   CLOCK: [2022-04-07 Thu 17:15]--[2022-04-07 Thu 17:34] =>  0:19
-   CLOCK: [2022-04-06 Wed 21:00]--[2022-04-06 Wed 22:07] =>  1:07
-   CLOCK: [2022-04-06 Wed 17:52]--[2022-04-06 Wed 18:07] =>  0:15
-   :END:
 * DONE 理清 linkedlist 的 deleteNode 逻辑
 CLOSED: [2022-04-08 Fri 11:42] DEADLINE: <2022-04-08 Fri 22:00>
 :LOGBOOK:
@@ -106,9 +97,74 @@ CLOCK: [2022-04-08 Fri 14:33]--[2022-04-08 Fri 15:37] =>  1:04
 CLOCK: [2022-04-08 Fri 13:05]--[2022-04-08 Fri 13:17] =>  0:12
 CLOCK: [2022-04-08 Fri 11:51]--[2022-04-08 Fri 12:01] =>  0:10
 :END:
+* DONE 玩玩 GTA-V
+CLOSED: [2022-04-09 Sat 17:07]
+:LOGBOOK:
+CLOCK: [2022-04-09 Sat 14:22]--[2022-04-09 Sat 15:07] =>  0:45
+:END:
+* DONE 给妈妈买防晒霜和精华
+CLOSED: [2022-04-11 Mon 11:05]
+* CANCELLED 寻找电脑录音/视频的软件
+CLOSED: [2022-04-11 Mon 11:54]
+
+* DONE 帮大哥写批量替换的脚本
+CLOSED: [2022-04-13 Wed 13:58]
+:LOGBOOK:
+CLOCK: [2022-04-12 Tue 20:30]--[2022-04-12 Tue 22:58] =>  2:28
+CLOCK: [2022-04-12 Tue 14:53]--[2022-04-12 Tue 16:39] =>  1:46
+CLOCK: [2022-04-12 Tue 11:22]--[2022-04-12 Tue 12:05] =>  0:43
+CLOCK: [2022-04-11 Mon 22:20]--[2022-04-12 Tue 00:33] =>  2:13
+:END:
+* NEXT 编程之美 - 1.2中国象棋将帅问题总结
+:LOGBOOK:
+CLOCK: [2022-04-11 Mon 16:55]--[2022-04-11 Mon 17:47] =>  0:52
+:END:
+
+* DONE C算法：队列和栈的实现
+CLOSED: [2022-04-07 Thu 21:33]
+ :LOGBOOK:
+  CLOCK: [2022-04-07 Thu 20:29]--[2022-04-07 Thu 21:33] =>  1:04
+  CLOCK: [2022-04-07 Thu 18:00]--[2022-04-07 Thu 18:11] =>  0:11
+  CLOCK: [2022-04-07 Thu 17:15]--[2022-04-07 Thu 17:34] =>  0:19
+  CLOCK: [2022-04-06 Wed 21:00]--[2022-04-06 Wed 22:07] =>  1:07
+  CLOCK: [2022-04-06 Wed 17:52]--[2022-04-06 Wed 18:07] =>  0:15
+ :END:
 * NEXT C算法：数和二叉树
 SCHEDULED: <2022-04-09 Sat>
 :LOGBOOK:
 CLOCK: [2022-04-09 Sat 13:22]--[2022-04-09 Sat 14:07] =>  0:45
 :END:
-* NEXT 极客时间-架构课学习
+* DEFFERED 从零开始学架构:基础架构
+:LOGBOOK:
+- State "DEFFERED"   from "NEXT"       [2022-04-14 Thu 00:13]
+CLOCK: [2022-04-09 Sat 15:56]--[2022-04-09 Sat 17:07] =>  1:11
+:END:
+
+* DONE 普通话练习：白杨礼赞前半段
+CLOSED: [2022-04-12 Tue 11:19] DEADLINE: <2022-04-11 Mon 23:00>
+:LOGBOOK:
+CLOCK: [2022-04-11 Mon 21:26]--[2022-04-11 Mon 22:01] =>  0:35
+:END:
+* DEFFERED 普通话练习：白杨礼赞后半段
+DEADLINE: <2022-04-13 Wed 22:00>
+:LOGBOOK:
+- State "DEFFERED"   from "DONE"       [2022-04-14 Thu 00:12]
+- State "WAITING"    from "TODO"       [2022-04-14 Thu 00:12]
+:END:
+* DEFFERED Oral English：痘痘护理
+DEADLINE: <2022-04-13 Wed 23:00>
+:LOGBOOK:
+- State "DEFFERED"   from "NEXT"       [2022-04-14 Thu 00:12]
+CLOCK: [2022-04-11 Mon 22:03]--[2022-04-11 Mon 22:19] =>  0:16
+- Note taken on [2022-04-11 Mon 10:37] \\
+  [https://www.bilibili.com/video/BV1gK4y147wf]
+:END:
+* NEXT [#A] "定时欠费提醒"COSMIC编写
+DEADLINE: <2022-04-13 Wed 22:00>
+:LOGBOOK:
+CLOCK: [2022-04-14 Thu 09:34]--[2022-04-14 Thu 10:24] =>  0:50
+CLOCK: [2022-04-13 Wed 15:59]--[2022-04-13 Wed 18:05] =>  2:06
+CLOCK: [2022-04-13 Wed 14:10]--[2022-04-13 Wed 14:22] =>  0:12
+:END:
+* TODO 理发
+DEADLINE: <2022-04-13 Wed 20:00>
