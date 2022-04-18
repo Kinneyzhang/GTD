@@ -1,0 +1,12 @@
+#+STARTUP: fold
+# 记录当前的的 project 状态
+* PROJ 南大2022操作系统课
+1. [[https://www.bilibili.com/video/BV1Cm4y1d7Ur/][视频链接]]
+2. [[http://jyywiki.cn/OS/2022/][课程主页]]
+* PROJ 普通话练习
+* PROJ 英语口语练习
+1. [[https://www.bilibili.com/video/BV1gK4y147wf][视频链接]]
+* PROJ 数据结构与算法学习(C)
+* PROJ 知识库开发与完善
+* PROJ <极客时间>:零基础学架构
+* PROJ Handly Todo (default)

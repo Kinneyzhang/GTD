@@ -115,12 +115,6 @@ CLOCK: [2022-04-12 Tue 14:53]--[2022-04-12 Tue 16:39] =>  1:46
 CLOCK: [2022-04-12 Tue 11:22]--[2022-04-12 Tue 12:05] =>  0:43
 CLOCK: [2022-04-11 Mon 22:20]--[2022-04-12 Tue 00:33] =>  2:13
 :END:
-* NEXT 编程之美 - 1.2中国象棋将帅问题总结
-:LOGBOOK:
-CLOCK: [2022-04-14 Thu 16:10]--[2022-04-14 Thu 16:14] =>  0:04
-CLOCK: [2022-04-11 Mon 16:55]--[2022-04-11 Mon 17:47] =>  0:52
-:END:
-
 * DONE C算法：队列和栈的实现
 CLOSED: [2022-04-07 Thu 21:33]
  :LOGBOOK:
@@ -135,30 +129,10 @@ SCHEDULED: <2022-04-09 Sat>
 :LOGBOOK:
 CLOCK: [2022-04-09 Sat 13:22]--[2022-04-09 Sat 14:07] =>  0:45
 :END:
-* DEFFERED 从零开始学架构:基础架构
-:LOGBOOK:
-- State "DEFFERED"   from "NEXT"       [2022-04-14 Thu 00:13]
-CLOCK: [2022-04-09 Sat 15:56]--[2022-04-09 Sat 17:07] =>  1:11
-:END:
-
 * DONE 普通话练习：白杨礼赞前半段
 CLOSED: [2022-04-12 Tue 11:19] DEADLINE: <2022-04-11 Mon 23:00>
 :LOGBOOK:
 CLOCK: [2022-04-11 Mon 21:26]--[2022-04-11 Mon 22:01] =>  0:35
-:END:
-* DEFFERED 普通话练习：白杨礼赞后半段
-DEADLINE: <2022-04-13 Wed 22:00>
-:LOGBOOK:
-- State "DEFFERED"   from "DONE"       [2022-04-14 Thu 00:12]
-- State "WAITING"    from "TODO"       [2022-04-14 Thu 00:12]
-:END:
-* DEFFERED Oral English：痘痘护理
-DEADLINE: <2022-04-13 Wed 23:00>
-:LOGBOOK:
-- State "DEFFERED"   from "NEXT"       [2022-04-14 Thu 00:12]
-CLOCK: [2022-04-11 Mon 22:03]--[2022-04-11 Mon 22:19] =>  0:16
-- Note taken on [2022-04-11 Mon 10:37] \\
-  [https://www.bilibili.com/video/BV1gK4y147wf]
 :END:
 * DONE [#A] "定时欠费提醒"COSMIC编写
 CLOSED: [2022-04-18 Mon 11:35] DEADLINE: <2022-04-13 Wed 22:00>
@@ -169,3 +143,4 @@ CLOCK: [2022-04-13 Wed 14:10]--[2022-04-13 Wed 14:22] =>  0:12
 :END:
 * DONE 理发
 CLOSED: [2022-04-14 Thu 13:00] DEADLINE: <2022-04-13 Wed 20:00>
+* TODO 南大操作系统课
