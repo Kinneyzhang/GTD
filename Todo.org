@@ -104,8 +104,11 @@ CLOCK: [2022-04-09 Sat 14:22]--[2022-04-09 Sat 15:07] =>  0:45
 :END:
 * DONE 给妈妈买防晒霜和精华
 CLOSED: [2022-04-11 Mon 11:05]
-* CANCELLED 寻找电脑录音/视频的软件
+* DONE 寻找电脑录音/视频的软件
 CLOSED: [2022-04-11 Mon 11:54]
+:LOGBOOK:
+- State "DONE"       from "CANCELLED"  [2022-04-18 Mon 12:01]
+:END:
 
 * DONE 帮大哥写批量替换的脚本
 CLOSED: [2022-04-13 Wed 13:58]
@@ -124,17 +127,12 @@ CLOSED: [2022-04-07 Thu 21:33]
   CLOCK: [2022-04-06 Wed 21:00]--[2022-04-06 Wed 22:07] =>  1:07
   CLOCK: [2022-04-06 Wed 17:52]--[2022-04-06 Wed 18:07] =>  0:15
  :END:
-* NEXT C算法：数和二叉树
-SCHEDULED: <2022-04-09 Sat>
-:LOGBOOK:
-CLOCK: [2022-04-09 Sat 13:22]--[2022-04-09 Sat 14:07] =>  0:45
-:END:
 * DONE 普通话练习：白杨礼赞前半段
 CLOSED: [2022-04-12 Tue 11:19] DEADLINE: <2022-04-11 Mon 23:00>
 :LOGBOOK:
 CLOCK: [2022-04-11 Mon 21:26]--[2022-04-11 Mon 22:01] =>  0:35
 :END:
-* DONE [#A] "定时欠费提醒"COSMIC编写
+* DONE "定时欠费提醒"COSMIC编写
 CLOSED: [2022-04-18 Mon 11:35] DEADLINE: <2022-04-13 Wed 22:00>
 :LOGBOOK:
 CLOCK: [2022-04-14 Thu 09:34]--[2022-04-14 Thu 10:24] =>  0:50
@@ -143,4 +141,36 @@ CLOCK: [2022-04-13 Wed 14:10]--[2022-04-13 Wed 14:22] =>  0:12
 :END:
 * DONE 理发
 CLOSED: [2022-04-14 Thu 13:00] DEADLINE: <2022-04-13 Wed 20:00>
-* TODO 南大操作系统课
+* NEXT C算法：数和二叉树
+SCHEDULED: <2022-04-09 Sat>
+:LOGBOOK:
+CLOCK: [2022-04-09 Sat 13:22]--[2022-04-09 Sat 14:07] =>  0:45
+:END:
+* NEXT 操作系统上的程序(什么是程序和编译器)
+:LOGBOOK:
+CLOCK: [2022-04-18 Mon 15:51]--[2022-04-18 Mon 18:24] =>  2:33
+CLOCK: [2022-04-18 Mon 12:19]--[2022-04-18 Mon 12:43] =>  0:24
+:END:
+1. [ ] 数字电路模拟器代码敲一遍
+2. [ ] 数字电路7段数码管的显示代码
+3. [ ] 使用gdb调试递归汉诺塔代码
+   - gdb a.out
+   - layout src: 源代码视角
+   - layout asm: 汇编代码视角
+   - start
+   - starti: 从程序的第一条指令开始执行
+   - s: step
+   - info frame: 打印栈帧信息
+   - info register: 打印寄存器信息
+     - si: 下一步
+     - x $rbp: 打印值
+   - p: 打印变量值
+   - b: break piint
+   - c: continue
+4. [ ] 非递归汉诺塔代码编写
+5. 当所有的概念能够写成代码的时候，就说明你真正掌握这个概念了
+6. 成为一个计算机从业者需要具备的基本素质就是，不怕读官方手册
+7. [ ] 理解 =objdump -d a.o | less=, =ld a.o= 作用
+8. [ ] hello world 程序的汇编实现(.S)
+9. 一个好的视角可以帮助提出好的问题
+* NEXT 健身房锻炼
