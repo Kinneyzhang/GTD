@@ -38,3 +38,31 @@ DEADLINE: <2022-04-13 Wed 22:00>
 :END:
 * TODO 信管知识库搭建windows环境
 * TODO 链接 Todo 和 Someday 里面的属于项目的内容到 Project 的项目中(写elisp)，最终生成一个项目视图
+* NEXT 健身房锻炼
+* NEXT 操作系统上的程序(什么是程序和编译器)
+:LOGBOOK:
+CLOCK: [2022-04-18 Mon 15:51]--[2022-04-18 Mon 18:24] =>  2:33
+CLOCK: [2022-04-18 Mon 12:19]--[2022-04-18 Mon 12:43] =>  0:24
+:END:
+1. [ ] 数字电路模拟器代码敲一遍
+2. [ ] 数字电路7段数码管的显示代码
+3. [ ] 使用gdb调试递归汉诺塔代码
+   - gdb a.out
+   - layout src: 源代码视角
+   - layout asm: 汇编代码视角
+   - start
+   - starti: 从程序的第一条指令开始执行
+   - s: step
+   - info frame: 打印栈帧信息
+   - info register: 打印寄存器信息
+     - si: 下一步
+     - x $rbp: 打印值
+   - p: 打印变量值
+   - b: break piint
+   - c: continue
+4. [ ] 非递归汉诺塔代码编写
+5. 当所有的概念能够写成代码的时候，就说明你真正掌握这个概念了
+6. 成为一个计算机从业者需要具备的基本素质就是，不怕读官方手册
+7. [ ] 理解 =objdump -d a.o | less=, =ld a.o= 作用
+8. [ ] hello world 程序的汇编实现(.S)
+9. 一个好的视角可以帮助提出好的问题
