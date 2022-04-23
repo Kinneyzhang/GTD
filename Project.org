@@ -1,12 +1,63 @@
 #+STARTUP: fold
 # 记录当前的的 project 状态
-* PROJ Handly Todo (default)
 * PROJ 南大2022操作系统课
+:PROPERTIES:
+:CUSTOM_ID: NJU-2022-OS
+:END:
 1. [[https://www.bilibili.com/video/BV1Cm4y1d7Ur/][视频链接]]
 2. [[http://jyywiki.cn/OS/2022/][课程主页]]
 * PROJ 普通话练习
+:PROPERTIES:
+:ID:       2bd7d782-0e01-46ec-86fe-25ad87c8c905
+:END:
 * PROJ 英语口语练习
+:PROPERTIES:
+:ID:       e3c83ecb-5eed-4844-9e16-651cb944795d
+:END:
 1. [[https://www.bilibili.com/video/BV1gK4y147wf][视频链接]]
 * PROJ 数据结构与算法学习(C)
+:PROPERTIES:
+:ID:       20f0548f-8320-4e6f-bf6c-8ab4b851f42a
+:END:
 * PROJ 知识库开发与完善
+:PROPERTIES:
+:ID:       fb6796f9-cac2-46c5-80cf-1e00b56cb58d
+:END:
 * PROJ <极客时间>:零基础学架构
+:PROPERTIES:
+:ID:       12df1b2d-4749-4bfb-bc0c-163ab337391e
+:END:
+* PROJ 操作系统上的程序(什么是程序和编译器)
+:PROPERTIES:
+:PARENT_ID: NJU-2022-OS
+:END:
+:LOGBOOK:
+CLOCK: [2022-04-18 Mon 15:51]--[2022-04-18 Mon 18:24] =>  2:33
+CLOCK: [2022-04-18 Mon 12:19]--[2022-04-18 Mon 12:43] =>  0:24
+:END:
+1. [ ] 数字电路模拟器代码敲一遍
+2. [ ] 数字电路7段数码管的显示代码
+3. [ ] 使用gdb调试递归汉诺塔代码
+   - gdb a.out
+   - layout src: 源代码视角
+   - layout asm: 汇编代码视角
+   - start
+   - starti: 从程序的第一条指令开始执行
+   - s: step
+   - info frame: 打印栈帧信息
+   - info register: 打印寄存器信息
+     - si: 下一步
+     - x $rbp: 打印值
+   - p: 打印变量值
+   - b: break piint
+   - c: continue
+4. [ ] 非递归汉诺塔代码编写
+5. 当所有的概念能够写成代码的时候，就说明你真正掌握这个概念了
+6. 成为一个计算机从业者需要具备的基本素质就是，不怕读官方手册
+7. [ ] 理解 =objdump -d a.o | less=, =ld a.o= 作用
+8. [ ] hello world 程序的汇编实现(.S)
+9. 一个好的视角可以帮助提出好的问题
+* NEXT 多处理器编程(线程库、现代处理器和宽松内存模型)
+:LOGBOOK:
+CLOCK: [2022-04-20 Wed 12:53]--[2022-04-20 Wed 13:08] =>  0:15
+:END:

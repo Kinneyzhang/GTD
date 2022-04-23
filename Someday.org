@@ -36,33 +36,44 @@ DEADLINE: <2022-04-13 Wed 22:00>
 - State "DEFFERED"   from "DONE"       [2022-04-14 Thu 00:12]
 - State "WAITING"    from "TODO"       [2022-04-14 Thu 00:12]
 :END:
-* TODO 信管知识库搭建windows环境
-* TODO 链接 Todo 和 Someday 里面的属于项目的内容到 Project 的项目中(写elisp)，最终生成一个项目视图
-* NEXT 健身房锻炼
-* NEXT 操作系统上的程序(什么是程序和编译器)
-:LOGBOOK:
-CLOCK: [2022-04-18 Mon 15:51]--[2022-04-18 Mon 18:24] =>  2:33
-CLOCK: [2022-04-18 Mon 12:19]--[2022-04-18 Mon 12:43] =>  0:24
+* TODO [#A] 以"个人GTD系统设计"总结架构思路
+* NEXT 个人GTD系统设计编码
+:PROPERTIES:
+:CUSTOM_ID: NJU-2022-OS
 :END:
-1. [ ] 数字电路模拟器代码敲一遍
-2. [ ] 数字电路7段数码管的显示代码
-3. [ ] 使用gdb调试递归汉诺塔代码
-   - gdb a.out
-   - layout src: 源代码视角
-   - layout asm: 汇编代码视角
-   - start
-   - starti: 从程序的第一条指令开始执行
-   - s: step
-   - info frame: 打印栈帧信息
-   - info register: 打印寄存器信息
-     - si: 下一步
-     - x $rbp: 打印值
-   - p: 打印变量值
-   - b: break piint
-   - c: continue
-4. [ ] 非递归汉诺塔代码编写
-5. 当所有的概念能够写成代码的时候，就说明你真正掌握这个概念了
-6. 成为一个计算机从业者需要具备的基本素质就是，不怕读官方手册
-7. [ ] 理解 =objdump -d a.o | less=, =ld a.o= 作用
-8. [ ] hello world 程序的汇编实现(.S)
-9. 一个好的视角可以帮助提出好的问题
+:LOGBOOK:
+CLOCK: [2022-04-19 Tue 22:03]--[2022-04-19 Tue 22:19] =>  0:16
+CLOCK: [2022-04-19 Tue 16:56]--[2022-04-19 Tue 18:55] =>  1:59
+CLOCK: [2022-04-19 Tue 16:37]--[2022-04-19 Tue 16:50] =>  0:13
+CLOCK: [2022-04-19 Tue 14:30]--[2022-04-19 Tue 15:45] =>  1:15
+CLOCK: [2022-04-19 Tue 09:06]--[2022-04-19 Tue 09:57] =>  0:51
+:END:
+- [X] 整体规划的意识还是不到位
+- 链接 Todo 和 Someday 里面的属于项目的内容到 Project 的项目中
+- Todo.org 中只能有 TODO/NEXT/DONE 状态
+- 迁移规则：
+  - 切换为 DEFFERED 状态时，迁移到 Someday.org 中
+  - Todo.org中的待办如果有子项目，迁移到Project.org中并修改状态为 PROJ
+  - 子项目全部完成后后，父项目状态切换为DONE
+- 项目文件中子项目链接到主项目中
+- 视图：项目视图
+- ★根据log生成当天的report
+- 根据时间的视图：周视图、月视图.. 时间按照 上午、下午、晚上来划分
+  - 设置新的 property: PERIODS
+* NEXT 数电模拟器代码 && 汉诺塔递归/非递归代码 并使用gtd调试
+:LOGBOOK:
+CLOCK: [2022-04-19 Tue 12:26]--[2022-04-19 Tue 12:44] =>  0:18
+CLOCK: [2022-04-19 Tue 11:44]--[2022-04-19 Tue 11:55] =>  0:11
+CLOCK: [2022-04-19 Tue 10:25]--[2022-04-19 Tue 11:22] =>  0:57
+CLOCK: [2022-04-19 Tue 07:07]--[2022-04-19 Tue 07:54] =>  0:47
+:END:
+* NEXT C算法:数和二叉树
+SCHEDULED: <2022-04-09 Sat>
+:LOGBOOK:
+CLOCK: [2022-04-09 Sat 13:22]--[2022-04-09 Sat 14:07] =>  0:45
+:END:
+1. [ ] 插入节点函数
+* NEXT 读《牧羊少年的奇幻之旅》
+:LOGBOOK:
+CLOCK: [2022-04-20 Wed 11:50]--[2022-04-20 Wed 12:00] =>  0:10
+:END:
