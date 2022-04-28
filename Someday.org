@@ -37,29 +37,6 @@ DEADLINE: <2022-04-13 Wed 22:00>
 - State "WAITING"    from "TODO"       [2022-04-14 Thu 00:12]
 :END:
 * TODO [#A] 以"个人GTD系统设计"总结架构思路
-* NEXT 个人GTD系统设计编码
-:PROPERTIES:
-:CUSTOM_ID: NJU-2022-OS
-:END:
-:LOGBOOK:
-CLOCK: [2022-04-19 Tue 22:03]--[2022-04-19 Tue 22:19] =>  0:16
-CLOCK: [2022-04-19 Tue 16:56]--[2022-04-19 Tue 18:55] =>  1:59
-CLOCK: [2022-04-19 Tue 16:37]--[2022-04-19 Tue 16:50] =>  0:13
-CLOCK: [2022-04-19 Tue 14:30]--[2022-04-19 Tue 15:45] =>  1:15
-CLOCK: [2022-04-19 Tue 09:06]--[2022-04-19 Tue 09:57] =>  0:51
-:END:
-- [X] 整体规划的意识还是不到位
-- 链接 Todo 和 Someday 里面的属于项目的内容到 Project 的项目中
-- Todo.org 中只能有 TODO/NEXT/DONE 状态
-- 迁移规则：
-  - 切换为 DEFFERED 状态时，迁移到 Someday.org 中
-  - Todo.org中的待办如果有子项目，迁移到Project.org中并修改状态为 PROJ
-  - 子项目全部完成后后，父项目状态切换为DONE
-- 项目文件中子项目链接到主项目中
-- 视图：项目视图
-- ★根据log生成当天的report
-- 根据时间的视图：周视图、月视图.. 时间按照 上午、下午、晚上来划分
-  - 设置新的 property: PERIODS
 * NEXT 数电模拟器代码 && 汉诺塔递归/非递归代码 并使用gtd调试
 :LOGBOOK:
 CLOCK: [2022-04-19 Tue 12:26]--[2022-04-19 Tue 12:44] =>  0:18
@@ -77,3 +54,8 @@ CLOCK: [2022-04-09 Sat 13:22]--[2022-04-09 Sat 14:07] =>  0:45
 :LOGBOOK:
 CLOCK: [2022-04-20 Wed 11:50]--[2022-04-20 Wed 12:00] =>  0:10
 :END:
+* NEXT 操作系统第三课:看视频，记笔记
+:LOGBOOK:
+CLOCK: [2022-04-22 Fri 16:50]--[2022-04-22 Fri 17:54] =>  1:04
+:END:
+* NEXT 错单管理研究分析
